@@ -7,6 +7,12 @@
 local opts = { noremap = true, silent = true }
 local term_opts = { silent = true }
 
+local wk = require("which-key")
+
+wk.register({
+  ["<leader>p"] = { "<cmd>ChatGPT<cr>", "ChatGPT" },
+})
+
 local function keymap(mode, lhs, rhs, opt)
   local keys = require("lazy.core.handler").handlers.keys
   ---@cast keys LazyKeysHandler
