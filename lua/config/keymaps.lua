@@ -38,12 +38,6 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Center line on screen
--- After full screen navigation
-keymap("n", "<C-f>", "<C-f>zz", opts)
-keymap("n", "<C-b>", "<C-b>zz", opts)
--- After half screen navigation
-keymap("n", "<C-d>", "<C-d>zz", opts)
-keymap("n", "<C-u>", "<C-u>zz", opts)
 -- After search next
 keymap("n", "n", "nzz", opts)
 keymap("n", "N", "Nzz", opts)
